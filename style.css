@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  height: 24rem;
+  width: 16rem;
+  background: darkorange;
+  line-height: 2rem;
+  color: white;
+  margin-top: 10rem;
+  font-size: 15px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.container p {
+  padding: 1rem 2rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container h1 {
+  padding: 0 2rem;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.container img {
+  padding: 1rem 2rem;
+}
+
+.container button {
+  border: none;
+  background-color: #fff;
+  color: darkorange;
+  border-radius: 15px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  height: 35px;
+  width: 6rem;
+}
+
+.container2 {
+  height: 24rem;
+  width: 16rem;
+  background: teal;
+  line-height: 2rem;
+  color: white;
+  margin-top: 10rem;
+  font-size: 15px;
+}
+
+.container2 p {
+  padding: 1rem 2rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container2 h1 {
+  padding: 0 2rem;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.container2 img {
+  padding: 1rem 2rem;
+}
+
+.container2 button {
+  border: none;
+  background-color: #fff;
+  color: teal;
+  border-radius: 15px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  height: 35px;
+  width: 6rem;
+}
+
+.container3 {
+  height: 24rem;
+  width: 16rem;
+  background: rgb(1, 56, 56);
+  line-height: 1.5rem;
+  color: white;
+  margin-top: 10rem;
+  font-size: 15px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.container3 p {
+  padding: 1.8rem 2rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container3 h1 {
+  padding: 0 2rem;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.container3 img {
+  padding: 1rem 2rem;
+}
+
+.container3 button {
+  border: none;
+  background-color: #fff;
+  color: rgb(1, 56, 56);
+  border-radius: 15px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  height: 35px;
+  width: 6rem;
+}
+
+#containers {
+  display: grid;
+  grid-template-columns: repeat(3, 0.1fr);
+
+  justify-content: center;
+}
+
+/* Responsive Design */
+
+
