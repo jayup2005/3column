@@ -127,4 +127,32 @@
 
 /* Responsive Design */
 
+@media (max-width:780px){
+  #containers {
+    
+    grid-template-columns: repeat(1, 0fr);
+  
+
+  
+   
+
+}
+.container{
+
+  border-radius: 10px 10px 0px 0px;
+}
+.container2{
+
+  position: relative;
+  top: -10rem;
+ 
+}
+
+.container3{
+
+  position: relative;
+  top: -20rem;
+  border-radius: 0px 0px 10px 10px;
+}
+}
 
